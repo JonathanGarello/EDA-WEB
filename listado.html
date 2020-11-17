@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>listado</title>
+    <link rel="stylesheet" href="css/estilos_base.css">
+    <link rel="stylesheet" href="css/estilos_listado.css">
+</head>
+<body>
+    <header>
+        <article class="contenedor_header">
+            <div class="logo">
+                <img src="img/logo.png" alt="logo de la web">
+            </div>
+            <div class="barra">
+                <form action="#" method="post">
+                    <datalist id="informacion">
+                        <option value="index">
+                        <option value="enfermedades-covid19">
+                        <option value="vacunas">
+                        <option value="hospitales">
+                        <option value="facebook">
+                        <option value="twitter">
+                        <option value="instagram">
+                    </datalist>
+                    <label for="busqueda"></label>
+                    <input id="barras" type="text" name="barra" list="informacion">
+                </form>
+            </div>
+            <div class="lupa">
+                <input id="lupa" type="image" src="img/lupa.png" alt="lupa">
+            </div>
+        </article>
+        <article>
+            <nav class="contenedor_header">
+                <ul class="menu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="listado.html">ENFERMEDADES</a></li>
+                    <li><a href="calendario.html">VACUNACION</a></li>
+                    <li><a href="hospitales.html">HOSPITALES</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </article>
+    </header>
+    <main class="main_1">
+        <h1>ENFERMEDADES</h1>
+        <form class="filtro" action="#" method="post">
+            <datalist id="informacion2">
+                <option value="covid-19">
+                <option value="ebola">
+                <option value="herpes">
+                <option value="hantavirus">
+                <option value="viruela">
+            </datalist>
+            <label for="busqueda2"></label>
+            <input id="barras2" type="text" name="barra2" list="informacion2" placeholder="Filtrar por enfermedad">
+        </form>
+        <section class="agrupador">
+            <article class="agrupador_art">
+                <img src="img/covid-19.jpg" alt="covid imagen">
+                <article>
+                    <h2>COVID-19</h2>
+                    <p>La COVID-19 afecta de distintas maneras en función de cada persona. La mayoría de las personas que se contagian presentan
+                    síntomas de intensidad leve o moderada, y se recuperan sin necesidad de hospitalización.
+                    El virus que causa la COVID‑19 se transmite principalmente a través de las gotículas generadas cuando una persona infectada toce
+                    Estas gotículas son demasiado pesadas para permanecer suspendidas en el aire</p>
+                    <a href="enfermedad.html"><input type="button" value="ver detalles"></a>
+                </article>
+            </article>
+            <article class="agrupador_art">
+                <img src="img/ebola.jpg" alt="ebola imagen">
+                <article>
+                    <h2>EBOLA</h2>
+                    <p>Los humanos pueden contagiar el virus a otros humanos mediante el contacto con fluidos corporales como la sangre.
+                    Los primeros síntomas incluyen fiebre, dolor de cabeza, dolor muscular y escalofríos. Más adelante, es posible experimentar hemorragias
+                    que pueden provocar vómitos o tos con sangre. El tratamiento consiste en la atención hospitalaria de soporte.
+                    Virus que ocasiona sangrado agudo, falla orgánica y hasta la muerte</p>
+                    <input type="button" value="ver detalles">
+                </article>
+            </article>
+            <article class="agrupador_art">
+                <img src="img/herpes.jpg" alt="herpes imagen">
+                <article>
+                    <h2>HERPES</h2>
+                    <p>Es causado por el virus del herpes simple (VHS-1) estrechamente relacionado con el que causa el herpes genital (VHS-2).
+                    Estos dos virus pueden afectar la boca o los genitales y pueden transmitirse a través del sexo oral.
+                    El herpes labial es contagioso aunque no veas las úlceras.
+                    por lo general, no acarrea problemas graves.</p>
+                    <input type="button" value="ver detalles">
+                </article>
+            </article>
+            <article class="agrupador_art">
+                <img src="img/hantavirus.jpg" alt="hantavirus imagen">
+                <article>
+                    <h2>HANTAVIRUS</h2>
+                    <p>Es un virus que produce una enfermedad viral aguda grave. Los ratones silvestres eliminan el virus por la saliva
+                    las heces y la orina y lo pueden transmitir a las personas. En Argentina se han identificado cuatro regiones endémicas:Norte
+                    Distintas especies de ratones cuya característica principal es tener una cola muy extensa.
+                    El virus se puede adquirir por cuatro vías.</p>
+                    <input type="button" value="ver detalles">
+                </article>
+            </article>
+            <article class="agrupador_art">
+                <img src="img/viruela.jpg" alt="viruela imagen">
+                <article>
+                    <h2>VIRUELA</h2>
+                    <p>La viruela (del latín variola: pústula pequeña) fue una enfermedad infecciosa grave, contagiosa y con un alto riesgo de muerte,
+                    causada por el virus Variola virus.1​ El último caso de contagio natural se diagnosticó en octubre de 1977 y en 1980 la
+                    Organización Mundial de la Salud (OMS) certificó la erradicación de la enfermedad en todo el planeta. Sus principales
+                    características eran una elevada tasa de mortalidad para quienes padeciesen la enfermedad.</p>
+                    <input type="button" value="ver detalles">
+                </article>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h4>Datos personales:</h4>
+            <ul>
+                <li>Jonathan Daniel Garello - 37.342.349</li>
+                <li>Facundo Dario Arzuaga Arabel - 37.981.924</li>
+                <li>Alvaro Miguel Sosa - 31.428.604</li>
+            </ul>
+        </div>
+        <nav>
+            <h4>Menu Inferior:</h4>
+            <ul>
+                <li><a href="listado.html">Enfermedades</a></li>
+                <li><a href="enfermedad.html">Vacunas</a></li>
+                <li><a href="hospitales.html">Hospitales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <nav class="redes">
+            <h4>Redes sociales:</h4>
+                <a href="https://www.facebook.com/" target="_blank">
+                <img src="img/facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/" target="_blank">
+                <img src="img/instagram.png" alt="instagram"></a>
+                <a href="https://www.twitter.com/" target="_blank">
+                <img src="img/twitter.png" alt="twitter"></a>
+        </nav>
+    </footer>  
+</body>
+</html>

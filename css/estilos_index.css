@@ -1,0 +1,40 @@
+/*main index*/
+.slider{
+    width: 100%;
+}
+.circulos{
+    height: 10em;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+}
+.circulos img{
+    border-radius: 50%;
+    height: 10em;
+    width: 10em;
+}
+.botones{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+}
+.botones a{
+    width: 15%;
+    text-align: center;
+}
+.botones a input{
+    border-radius: 5%;
+    width: 100%;
+    background-color: rgb(117, 117, 117);
+    padding: 3px;
+    color: #fff;
+}
+.botones input:hover{
+    color:red;
+}
+.franja img{
+    width: 100%;
+}

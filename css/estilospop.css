@@ -1,0 +1,64 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#abrir{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+#abrir:hover{
+    text-decoration: underline;
+}
+#abrir2{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+#abrir2:hover{
+    text-decoration: underline;
+}
+#abrir3{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+#abrir3:hover{
+    text-decoration: underline;
+}
+.popup{
+    background-color: teal;
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    position: fixed;
+    z-index:2;
+    top:30px;
+    display:none;
+}
+.popup2{
+    background-color:tomato;
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    position: fixed;
+    z-index:2;
+    top:30px;
+    display:none;
+}
+.popup3{
+    background-color: violet;
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    position: fixed;
+    z-index:2;
+    top:30px;
+    display:none;
+}
+.web{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

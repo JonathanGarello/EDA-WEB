@@ -1,0 +1,10 @@
+/* main mapas */
+.cercanos{
+    width: 100%;
+    height: 30em;
+    margin-bottom: 2em;
+}
+.cercanos iframe{
+    width: 100%;
+    height: 100%;
+}

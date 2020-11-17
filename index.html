@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>index</title>
+        <link rel="stylesheet" href="css/estilos_base.css">
+        <link rel="stylesheet" href="css/estilos_index.css">
+        <link rel="stylesheet" href="css/nivo-slider.css"/>
+        <link rel="stylesheet" href="css/default.css"/>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+        <script type="text/javascript" src="js/jquery.nivo.slider.js"></script> 
+        <script type="text/javascript">
+            $(window).load(function() {
+                $('#otro').nivoSlider();
+            });
+        </script>
+    </head>
+    <body>
+        <header>
+            <article class="contenedor_header">
+                <div class="logo">
+                    <img src="img/logo.png" alt="logo de la web">
+                </div>
+                <div class="barra">
+                    <form action="#" method="post">
+                        <datalist id="informacion">
+                            <option value="index">
+                            <option value="enfermedades-covid19">
+                            <option value="vacunas">
+                            <option value="hospitales">
+                            <option value="facebook">
+                            <option value="twitter">
+                            <option value="instagram">
+                        </datalist>
+                        <label for="busqueda"></label>
+                        <input id="barras" type="text" name="barra" list="informacion">
+                    </form>
+                </div>
+                <div class="lupa">
+                    <input id="lupa" type="image" src="img/lupa.png" alt="lupa">
+                </div>
+            </article>
+        </header>
+        <main>
+            <section class="contenedor">
+                <article class="slider-wrapper theme-default">
+                    <div id="otro" class="nivoSlider"> 
+                        <img src="img/medico-conocer-salud-768x506.jpg" alt="" /> 
+                        <img src="img/historia-clinica.png" alt="" title="Glossarium" /> 
+                        <img src="img/mapacovid.jpg" alt="" data-transition="slideInLeft" /> 
+                    </div>
+                </article>
+            </section>
+
+            <h1>Glossarium de Enfermedades</h1>
+            <div class="circulos">
+                <img src="img/enfermedades.png" alt="enfermedades icono">
+                <img src="img/vacuna.png" alt="vacunas icono">
+                <img src="img/mapa.png" alt="mapa icono">
+            </div>
+            <div class="botones">
+                <a href="listado.html"><input type="button" value="ENFERMEDADES"></a>
+                <a href="calendario.html"><input type="button" value="VACUNAS"></a>
+                <a href="hospitales.html"><input type="button" value="MAPA DE HOSPITALES"></a>
+            </div>
+            <aside class="franja">
+                <img src="img/franjatelefonica.png" alt="franja telefonica">
+            </aside>
+        </main>
+        <footer>
+            <div>
+                <h4>Datos personales:</h4>
+                <ul>
+                    <li>Jonathan Daniel Garello - 37.342.349</li>
+                    <li>Facundo Dario Arzuaga Arabel - 37.981.924</li>
+                    <li>Alvaro Miguel Sosa - 31.428.604</li>
+                </ul>
+            </div>
+            <nav>
+                <h4>Menu Inferior:</h4>
+                <ul>
+                    <li><a href="listado.html">Enfermedades</a></li>
+                    <li><a href="enfermedad.html">Vacunas</a></li>
+                    <li><a href="hospitales.html">Hospitales</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <nav class="redes">
+                <h4>Redes sociales:</h4>
+                    <a href="https://www.facebook.com/" target="_blank">
+                    <img src="img/facebook.png" alt="facebook"></a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                    <img src="img/instagram.png" alt="instagram"></a>
+                    <a href="https://www.twitter.com/" target="_blank">
+                    <img src="img/twitter.png" alt="twitter"></a>
+            </nav>
+        </footer>   
+    </body>
+</html>
